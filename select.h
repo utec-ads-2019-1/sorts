@@ -8,9 +8,7 @@ class SelectSort : public Sort {
         SelectSort(void *elements, size_t size) : Sort(elements, size) {}
 
         void execute(void (*compare)(void*, int, int)) {
-            for (int i = 0; i < size - 1; i++) {
-
-            }
+            // TODO
         }
 
         inline string name() { return "SelectSort"; }
