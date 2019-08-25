@@ -5,9 +5,9 @@
 
 class InsertSort : public Sort {       
     public:
-        InsertSort(void *elements, size_t size) : Sort(elements, size) {}
+        InsertSort(int *elements, size_t size) : Sort(elements, size) {}
 
-        void execute(void (*compare)(void*, int, int)) {
+        void execute() {
             // TODO
         }
 

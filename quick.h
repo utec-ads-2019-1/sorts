@@ -5,9 +5,9 @@
 
 class QuickSort : public Sort {       
     public:
-        QuickSort(void *elements, size_t size) : Sort(elements, size) {}
+        QuickSort(int *elements, size_t size) : Sort(elements, size) {}
 
-        void execute(void (*compare)(void*, int, int)) {
+        void execute() {
             // TODO
         }
 

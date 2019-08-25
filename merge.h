@@ -5,9 +5,9 @@
 
 class MergeSort : public Sort {       
     public:
-        MergeSort(void *elements, size_t size) : Sort(elements, size) {}
+        MergeSort(int *elements, size_t size) : Sort(elements, size) {}
 
-        void execute(void (*compare)(void*, int, int)) {
+        void execute() {
             // TODO
         }
 

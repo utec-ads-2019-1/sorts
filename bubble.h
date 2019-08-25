@@ -6,14 +6,10 @@
 
 class BubbleSort : public Sort {       
     public:
-        BubbleSort(void *elements, size_t size) : Sort(elements, size) {}
+        BubbleSort(int *elements, size_t size) : Sort(elements, size) {}
 
-        void execute(void (*compare)(void*, int, int)) {
-            for (int i = 0; i < size - 1; ++i) {
-                for (int j = 0; j < size - i - 1; ++j) {
-                    compare(elements, j, j + 1);
-                }
-            }
+        void execute() {
+            // TODO
         }
 
         inline string name() { return "BubbleSort"; }

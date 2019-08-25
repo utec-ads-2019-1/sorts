@@ -5,9 +5,9 @@
 
 class SelectSort : public Sort {       
     public:
-        SelectSort(void *elements, size_t size) : Sort(elements, size) {}
+        SelectSort(int *elements, size_t size) : Sort(elements, size) {}
 
-        void execute(void (*compare)(void*, int, int)) {
+        void execute() {
             // TODO
         }
 

@@ -7,13 +7,13 @@ using namespace std;
 
 class Sort {
     protected:
-        void *elements;
+        int *elements;
         size_t size;
         
     public:
-        Sort(void *elements, size_t size) : elements(elements), size(size) {}
+        Sort(int *elements, size_t size) : elements(elements), size(size) {}
 
-        virtual void execute(void (*)(void*, int, int)) = 0;
+        virtual void execute() = 0;
 
         virtual string name() = 0;
 };
